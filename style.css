@@ -27,3 +27,34 @@ body {
     display: flex;
     border: 1px solid red;
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    justify-content: space-between;
+}
+
+.main-upper {
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.main-mid {
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.main-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;   
+    border: 1px solid red;
+}
