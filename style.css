@@ -1,3 +1,29 @@
-.text {
-    color:pink;
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid red;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.links {
+    display: flex;
+    border: 1px solid red;
+}
+
+.header-bottom {
+    display: flex;
+    border: 1px solid red;
 }
